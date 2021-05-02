@@ -7,7 +7,7 @@ dependencies = [
     "chiapos==1.0.1",  # proof of space
     "clvm==0.9.6",
     "maturin",
-    "clvm_rs@git+https://github.com/Chia-Network/clvm_rs.git@serialized-length#egg=clvm-rs",  # noqa
+    "clvm_rs@git+https://github.com/Chia-Network/clvm_rs.git@main#egg=clvm-rs",  # noqa
     "clvm_tools==0.4.3",
     "aiohttp==3.7.4",  # HTTP server for full node rpc
     "aiosqlite==0.17.0",  # asyncio wrapper for sqlite, to store blocks
